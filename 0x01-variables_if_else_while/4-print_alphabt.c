@@ -14,9 +14,8 @@ int ch;
 	for (ch = 'a'; ch = 'e' || 'q'; ch++)
 	{
 	putchar(ch);
-	putchar('\n');
-	getch();
 	}
+	putchar('\n');
 
 return (0);
 }
