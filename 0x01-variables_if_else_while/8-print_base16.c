@@ -17,10 +17,9 @@ int ch;
 		{
 		for (ch = 'a'; ch <= 'f'; ch++)
 		}
-	putchar(n);
+	putchar((n % 16) + '0') ;
 	putchar(ch);
-	putchar('\n')
-	getch();
+	putchar('\n');
 	}
 
 return (0);
