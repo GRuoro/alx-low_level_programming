@@ -14,7 +14,7 @@ int ch;
 
 	for (n = 0; n <= 10 ; n++)
 	{
-	putchar((n % 16) + '0');
+	putchar(n);
 		{
 		for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
