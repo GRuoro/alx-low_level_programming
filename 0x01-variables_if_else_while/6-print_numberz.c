@@ -13,10 +13,9 @@ int num;
 
 	for (num = 0; num < 10; num++)
 		{
-		putchar("%d\n", num);
-		putchar('\n');
-		getch();
+		putchar("%d", num);
 		}
+		putchar('\n');
 
 return (0);
 }
