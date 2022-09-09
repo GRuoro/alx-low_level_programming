@@ -16,7 +16,6 @@ int ch;
 	{
 	putchar(ch);
 	putchar('\n');
-	getc();
 	}
 
 return (0);
