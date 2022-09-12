@@ -7,30 +7,33 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
 
+
+void print_alphabet(void)
+{
+char alph = 'a';
+
+for (alph = 'a'; alph <= 'z'; alph++)
+	{
+	_putchar(alph);
+	}
+	_putchar('\n');
+
+}
+
 /**
+ * main- print alphabet
  *
- * main - print _putchar without stdio header
- *
- * Return: always 0
+ * Return: always return 0
  */
 
-int main(void)
+int main()
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+print_alphabet();
 
 return (0);
 }
