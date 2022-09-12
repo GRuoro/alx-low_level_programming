@@ -7,36 +7,66 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char c)
-{
+int _putchar(char c){
 	return (write(1, &c, 1));
 }
 
-void print_alphabet(void)
-{
+void print_alphabet(void){
 char alph = 'a';
 
-for (alph = 'a'; alph <= 'z'; alph++)
-	{
+for (alph = 'a'; alph <= 'z'; alph++){
 	_putchar(alph);
 	}
 	_putchar('\n');
 
 }
 
-void print_alphabet_x10(void)
-{
+void print_alphabet_x10(void){
 
 char alph = 'a';
 int counter = 0;
 
-for (counter = 0; counter <= 9; counter ++)
-	{
-	for (alph = 'a'; alph <= 'z'; alph++)
-		{
+for (counter = 0; counter <= 9; counter ++){
+	for (alph = 'a'; alph <= 'z'; alph++){
 		_putchar(alph);
 		}
 
 	_putchar('\n');
 	}
+}
+
+
+int _islower(int c){
+if (c >= 'a' && c <= 'z'){
+	return (1);
+	}
+else
+	return (0);
+}
+
+
+int _isalpha(int c){
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')){
+	return (1);
+	}
+else
+	return (0);
+}
+
+
+int print_sign(int n){
+if (n > 0){
+	_putchar('+');
+	return (1);
+	}
+else if (n == 0){
+	_putchar(0);
+	return (0);
+	}
+else if (n < 0){
+	_putchar('-');
+	return (-1);
+	}
+return (0);
+
 }
