@@ -3,13 +3,13 @@
 int _abs(int);
 
 {
-int n;
+int r;
 
-if (n < 0)
-	return (-n);
+if (r < 0)
+	return (-r);
 
-else if (n > 0)
-	return (n);
+else if (r > 0)
+	return (r);
 
 return (0);
 }
