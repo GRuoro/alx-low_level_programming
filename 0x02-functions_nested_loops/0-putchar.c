@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * main - print _putchar without stdio header
  *
  * Return: always 0
