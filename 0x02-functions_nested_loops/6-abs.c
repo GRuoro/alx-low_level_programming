@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _abs - print absolute value
+ *
+ * Return: always return 0
+ */
+
 int _abs(int r)
 {
 
