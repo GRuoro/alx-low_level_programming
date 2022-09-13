@@ -1,19 +1,15 @@
 #include "main.h"
 
 /**
- *
- * main - call function isalpha 
- *
- * Return: always return 0
+ * _isalpha - check the code for Holberton School students.
+ *@c: letter being tested
+ * Return: Always 0
  */
 
-int main(void)
+int _isalpha(int c)
 {
-
-int c;
-
-_isalpha(c);
-
-return (0);
-
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+		return (1);
+	else
+		return (0);
 }
