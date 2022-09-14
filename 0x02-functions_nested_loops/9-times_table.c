@@ -20,7 +20,7 @@ int x, y, product;
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if (y = 0)
+			else if (y == 0)
 			{
 				_putchar('0');
 			}
