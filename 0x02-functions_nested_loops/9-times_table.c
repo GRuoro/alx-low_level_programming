@@ -14,8 +14,9 @@ for (a = 0; a <= 9; a++)
 {
         for (b = 0; b <= 9; b++)
         {
-        n =a * b;
-        _putchar(n);
+        _putchar('a * b');
         }
 _putchar(\n);
+
+return (0);
 }
