@@ -19,6 +19,9 @@ for (i = 0; i < 50 ; i++)
 	printf("%lu, ", c);
 	a = b;
 	b = c;
+
+	if (i == 49)
+	printf("%lu",c);
 }
 printf("\n");
 return (0);
