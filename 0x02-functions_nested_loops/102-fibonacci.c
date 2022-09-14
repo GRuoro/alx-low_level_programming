@@ -13,13 +13,13 @@ int b = 1;
 
 int i, c;
 
-for (i = 0; i < 50 ; i++)
+for (i = 0; i <= 50 ; i++)
 {
 	c = a + b;
+	printf("%u, ", c);
 	a = b;
 	b = c;
-	printf("%d, ", c);
 }
-
+printf("\n");
 return (0);
 }
