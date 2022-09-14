@@ -15,12 +15,11 @@ for(i = 0; i <= 9; i++)
 	for(j = 0; j <= 9; j++)
 		{
 		n = i * j;
-		_putchar(n/1);
-		_putchar(n%1 + '0');
+		_putchar(n/10);
+		_putchar(n%10 + '0');
 		_putchar(',');
 		_putchar(' ');
 		}
 	_putchar('\n');
 	}
-_putchar('\n');
 }
