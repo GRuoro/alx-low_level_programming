@@ -13,13 +13,13 @@ unsigned long b = 1;
 unsigned long c;
 int i;
 
-for (i = 0; ; i++)
+for (i = 0; i < 49 ; i++)
 {
-	c = a + b;
 
-	if ((c < 4000000) && (c % 2 == 0))
-		printf("%lu", c);
-
+	if ((b < 4000000) && (b % 2 == 0))
+		c = a + b;	
+	printf("%lu", c);
+	
 	a = b;
 	b = c;
 }
