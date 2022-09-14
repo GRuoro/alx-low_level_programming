@@ -8,15 +8,15 @@
 
 int main(void)
 {
-int a = 0;
-int b = 1;
-
-int i, c;
+unsigned long a = 0;
+unsigned long b = 1;
+unsigned long c;
+int i;
 
 for (i = 0; i <= 50 ; i++)
 {
 	c = a + b;
-	printf("%u, ", c);
+	printf("%lu, ", c);
 	a = b;
 	b = c;
 }
