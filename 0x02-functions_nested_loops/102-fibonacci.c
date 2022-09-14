@@ -16,12 +16,12 @@ int i;
 for (i = 0; i < 50 ; i++)
 {
 	c = a + b;
-	printf("%lu, ", c);
+	printf("%lu", c);
+
+	if (i != 49)
+		printf(", ");
 	a = b;
 	b = c;
-
-	if (i == 49)
-	printf("%lu",c);
 }
 printf("\n");
 return (0);
