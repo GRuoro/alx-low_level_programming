@@ -13,7 +13,7 @@ unsigned long b = 1;
 unsigned long c;
 int i;
 
-for (i = 0; i < 50 ; i++)
+for (i = 0; ; i++)
 {
 	c = a + b;
 
