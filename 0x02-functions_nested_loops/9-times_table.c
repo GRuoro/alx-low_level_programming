@@ -18,7 +18,7 @@ for(i = 0; i <= 9; i++)
 		_putchar(n/10);
 		_putchar(n%10 + '0');
 
-		if (y != 0)
+		if (j != 0)
 			{
 			_putchar(',');
 			_putchar(' ');
