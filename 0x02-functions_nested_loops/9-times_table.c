@@ -19,6 +19,7 @@ int x, y, product;
 			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(product);
 			}
 			else if (y == 0)
 			{
@@ -31,10 +32,10 @@ int x, y, product;
 			}
 			else if ((product < 10) && (y != 0))
 			{
-				_putchar(' ');
+				_putchar(' ';
+				_putchar(product);
 			}
 		}
-		_putchar(product);
 		_putchar('\n');
 	}
 }
