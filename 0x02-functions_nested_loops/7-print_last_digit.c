@@ -6,43 +6,22 @@
  * Return: Always 0.
  */
 
-
 int print_last_digit(int n)
 {
-	int nv;
 
-	if (n < 0)
-	{
-		nv = -1 * (n % 10);
-		_putchar(nv + '0');
-		return (nv);
-	}
-	else
-	{
-		nv = n % 10;
-		_putchar(nv + '0');
-		return (nv);
-	}
-}
-
-/**int print_last_digit(int n)
-{
-
-n = n % 10;
+int a;
 
 if (n < 0)
 	{
-	n = -n;
-	_putchar(n + '0');
-	return(n);
+	a = -1 * (n % 10);
+	_putchar(a + '0');
+	return(a);
 	}
-else if (n == 0)
+else
 	{
-	_putchar(n + '0');
-	}
-else if (n > 0)
-	{
-	_putchar(n + '0');
+	a = n % 10;
+	_putchar(a + '0');
+	return (a);
 	}
 return (0);
-}**/
+}
