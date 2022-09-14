@@ -17,12 +17,8 @@ for(i = 0; i <= 9; i++)
 		n = i * j;
 		_putchar(n/10);
 		_putchar(n%10 + '0');
-
-		if (j != 0 && i != 0)
-			{
-			_putchar(',');
-			_putchar(' ');
-			}
+		_putchar(',');
+		_putchar(' ');
 		}
 	_putchar('\n');
 	}
