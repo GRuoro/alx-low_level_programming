@@ -15,10 +15,10 @@ int i;
 
 for (i = 0; i < 50 ; i++)
 {
-	
-	if ((c < 4000000) && (c % 2 == 0))
 	c = a + b;
-	printf("%lu", c);
+
+	if ((c < 4000000) && (c % 2 == 0))
+		printf("%lu", c);
 
 	a = b;
 	b = c;
