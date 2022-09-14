@@ -19,6 +19,6 @@ for (n = 1; n < 1024; n++)
 		sum = sum + n;
 	}
 printf("%d\n", sum);
-	
+
 return (0);
 }
