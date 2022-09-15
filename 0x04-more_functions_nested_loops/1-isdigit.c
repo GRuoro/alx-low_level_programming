@@ -3,6 +3,7 @@
 /**
  *_isdigit - checks for digit btwn 0 & 9
  *@c: int type parameter
+ *
  *Return: 1 if digit else 0
 */
 
