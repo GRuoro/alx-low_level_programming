@@ -2,8 +2,7 @@
 
 /**
  *print_numbers - prints numbers then newline
- *
- *Return:always return a
+ *Descritpiom: use putchar twice
 */
 
 void print_numbers(void)
