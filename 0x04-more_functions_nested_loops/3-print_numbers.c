@@ -3,7 +3,7 @@
 /**
  *print_numbers - prints numbers then newline
  *
- *Return:always return 0
+ *Return:always return a
 */
 
 void print_numbers(void)
@@ -16,5 +16,5 @@ for (a = 0; a <= 9; a++)
 	}
 _putchar('\n');
 
-return (0);
+return (a);
 }
