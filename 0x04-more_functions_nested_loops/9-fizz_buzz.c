@@ -23,6 +23,9 @@ for (a = 1; a <= 100; a++)
 
 	else
 		printf("%d", a);
+
+	if (a != 100)
+		printf(" ");
 }
 printf("\n");
 return (0);
