@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *void print_numbers(void) - prints numbers then newline
+ *print_numbers - prints numbers then newline
  *
  *Return:always return 0
 */
