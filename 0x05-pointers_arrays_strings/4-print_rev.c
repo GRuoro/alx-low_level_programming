@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - print a string to stdout
- * @str: char array string type
+ * print_rev - print a string to stdout reverse
+ * @s: char array string type
  */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int i;
 
-	for (i = 0; str[i] = '\0'; --i)
+	for (i = 0; s[i] = '\0'; --i)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
