@@ -19,13 +19,13 @@ int j = 0;
 dest = s1;
 src = s2;
 
-while(s1[i] != '\0')
+while (s1[i] != '\0')
 	{
 	dest++;
 	++i;
 	}
 
-while(s2[j] != '\0')
+while (s2[j] != '\0')
 	{
 	*dest = *src;
 	dest++;
