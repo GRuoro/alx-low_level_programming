@@ -5,7 +5,7 @@
  * @n: input string
  * Return: caps on first letter of a separator
  */
-char string_toupper(char *n)
+char *cap_string(char *n)
 {
 	int i, x;
 	int cap = 32;
