@@ -1,4 +1,4 @@
-#include "main.h:
+#include "main.h"
 
 /**
 * set_string - set value of pointer to char
@@ -9,6 +9,6 @@
 void set_string(char **s, char *to)
 {
 
-	to = &s;
+	s = &to;
 
 }
